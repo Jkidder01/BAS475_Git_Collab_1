@@ -9,7 +9,7 @@ ui <- fluidPage(
   selectInput(
     inputId = 'selected_purpose',
     label = 'Select Purpose',
-    choises = unique(tourism$Purpose)
+    choices = unique(tourism$Purpose)
   ),
 
   plotOutput('t.plot')
